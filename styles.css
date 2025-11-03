@@ -8,3 +8,14 @@ body{
 .titiletwo{
   width: 400px;
 }
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  nav {
+    display: none; /* ejemplo: ocultar menú en móviles */
+  }
+}
